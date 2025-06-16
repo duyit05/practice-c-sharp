@@ -42,6 +42,11 @@
     <ItemGroup>
         <Compile Include="1_delegate\Delegate.cs" />
         <Compile Include="2_lamda\Lambda.cs" />
+        <Compile Include="3_event\EventConcept.cs" />
+        <Compile Include="3_event\EventStructure.cs" />
+        <Compile Include="4_ExtensionMethod\ExtensionMethod.cs" />
+        <Compile Include="4_ExtensionMethod\MyExtension.cs" />
+        <Compile Include="MethodStaticReadOnlyAndIndexer\MethodStaticReadOnlyAndIndexer.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
