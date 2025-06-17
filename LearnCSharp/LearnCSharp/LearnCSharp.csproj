@@ -46,7 +46,9 @@
         <Compile Include="3_event\EventStructure.cs" />
         <Compile Include="4_ExtensionMethod\ExtensionMethod.cs" />
         <Compile Include="4_ExtensionMethod\MyExtension.cs" />
-        <Compile Include="MethodStaticReadOnlyAndIndexer\MethodStaticReadOnlyAndIndexer.cs" />
+        <Compile Include="5_MethodStaticReadOnlyAndIndexer\MethodStaticReadOnlyAndIndexer.cs" />
+        <Compile Include="6_Exception\HandlerException.cs" />
+        <Compile Include="6_Exception\MyException.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>

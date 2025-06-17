@@ -119,32 +119,32 @@ namespace LearnCSharp.MethodStaticReadOnlyAndIndexer
     }
     public class MethodStaticReadOnlyAndIndexer
     {
-        public static void Main(string[] args)
-        {
-            CountNumber c1 = new CountNumber();
-            CountNumber c2 = new CountNumber();
-            
-            c1.Count();
-            c2.Count();
-            CountNumber.Info();
-
-            Student student = new Student("Nguyen Van Duy");
-            Console.WriteLine(student.name);
-
-            Vector v1 = new Vector(2, 3);
-            Vector v2 = new Vector(1, 1);
-            var v3 = v1 + v2;
-            v1.Info();
-            v2.Info();
-            v3.Info();
-            
-            // quá tải du lieu
-            Vector vectorData = new Vector(5,6);
-            vectorData[0] = 10;
-            vectorData[1] = 11;
-            vectorData.Info();
-            Console.WriteLine(vectorData["toadox"]);
-
-        }
+        // public static void Main(string[] args)
+        // {
+        //     CountNumber c1 = new CountNumber();
+        //     CountNumber c2 = new CountNumber();
+        //     
+        //     c1.Count();
+        //     c2.Count();
+        //     CountNumber.Info();
+        //
+        //     Student student = new Student("Nguyen Van Duy");
+        //     Console.WriteLine(student.name);
+        //
+        //     Vector v1 = new Vector(2, 3);
+        //     Vector v2 = new Vector(1, 1);
+        //     var v3 = v1 + v2;
+        //     v1.Info();
+        //     v2.Info();
+        //     v3.Info();
+        //     
+        //     // quá tải du lieu
+        //     Vector vectorData = new Vector(5,6);
+        //     vectorData[0] = 10;
+        //     vectorData[1] = 11;
+        //     vectorData.Info();
+        //     Console.WriteLine(vectorData["toadox"]);
+        //
+        // }
     }
 }
