@@ -49,6 +49,9 @@
         <Compile Include="5_MethodStaticReadOnlyAndIndexer\MethodStaticReadOnlyAndIndexer.cs" />
         <Compile Include="6_Exception\HandlerException.cs" />
         <Compile Include="6_Exception\MyException.cs" />
+        <Compile Include="7_ListAndSortedList\ListAndSortedList.cs" />
+        <Compile Include="8_QueueAndStack\QueueAndStack.cs" />
+        <Compile Include="9_File\File.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>

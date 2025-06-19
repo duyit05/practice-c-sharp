@@ -19,16 +19,16 @@ namespace LearnCSharp._6_Exception
             Console.WriteLine($"Xin chao{name}, tuoi {age}");
         }
 
-        public static void Main(string[] args)
-        {
-            try
-            {
-                Register("123", 17);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
-        }
+        // public static void Main(string[] args)
+        // {
+        //     try
+        //     {
+        //         Register("123", 17);
+        //     }
+        //     catch (Exception e)
+        //     {
+        //         Console.WriteLine(e.Message);
+        //     }
+        // }
     }
 }
