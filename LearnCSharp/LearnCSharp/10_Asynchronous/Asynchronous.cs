@@ -47,20 +47,20 @@ namespace LearnCSharp._10_Asynchronous
             await t3;
             Console.WriteLine("T3 DONE");
         }
-        public static void Main(string[] args)
-        {
-            // asynchronous
-            // Task
-            Task t2 = Task2();
-            Task t3 = Task3();
-            
-          
-            DoSomeThing(6, "T1", ConsoleColor.Magenta);
-
-
-            Task.WaitAll(t2, t3);
-            Console.WriteLine("Hello World");
-            Console.ReadKey();
-        }
+        // public static void Main(string[] args)
+        // {
+        //     // asynchronous
+        //     // Task
+        //     Task t2 = Task2();
+        //     Task t3 = Task3();
+        //     
+        //   
+        //     DoSomeThing(6, "T1", ConsoleColor.Magenta);
+        //
+        //
+        //     Task.WaitAll(t2, t3);
+        //     Console.WriteLine("Hello World");
+        //     Console.ReadKey();
+        // }
     }
 }

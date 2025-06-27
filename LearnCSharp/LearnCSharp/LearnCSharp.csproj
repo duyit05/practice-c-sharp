@@ -41,6 +41,9 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="10_Asynchronous\Asynchronous.cs" />
+        <Compile Include="11_LinQ\Brand.cs" />
+        <Compile Include="11_LinQ\LinQ.cs" />
+        <Compile Include="11_LinQ\Product.cs" />
         <Compile Include="1_delegate\Delegate.cs" />
         <Compile Include="2_lamda\Lambda.cs" />
         <Compile Include="3_event\EventConcept.cs" />
