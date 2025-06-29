@@ -10,7 +10,7 @@
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>LearnCSharp</RootNamespace>
         <AssemblyName>LearnCSharp</AssemblyName>
-        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <TargetFrameworkVersion>6.0.428</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     </PropertyGroup>
@@ -44,6 +44,7 @@
         <Compile Include="11_LinQ\Brand.cs" />
         <Compile Include="11_LinQ\LinQ.cs" />
         <Compile Include="11_LinQ\Product.cs" />
+        <Compile Include="12_CreateLibrary\CreateLibrary.cs" />
         <Compile Include="1_delegate\Delegate.cs" />
         <Compile Include="2_lamda\Lambda.cs" />
         <Compile Include="3_event\EventConcept.cs" />
